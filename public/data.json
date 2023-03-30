@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Lily Chen",
+    "blogTitle": "Coding for Beginners: 10 Essential Tips to Get You Started",
+    "readTime": 5,
+    "publishDate": "Mar 14 (4 Days ago)",
+    "authorImage": "https://cdn-icons-png.flaticon.com/512/164/164600.png?w=826&t=st=1680201224~exp=1680201824~hmac=cb470254d108900be3a23399bf5ff5852d76b6790ed3ef3e814511c105dd4a94",
+    "coverImage": "https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg?w=1380&t=st=1680200234~exp=1680200834~hmac=33592190637448f630ffc855deaaea54fea9a26f7c980218c01892e1f5701736"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Kim",
+    "blogTitle": "The Future of AI: How Machine Learning is Revolutionizing Programming",
+    "readTime": 4,
+    "publishDate": "Feb 25 (34 days ago)",
+    "authorImage": "https://cdn-icons-png.flaticon.com/512/196/196756.png?w=826&t=st=1680201261~exp=1680201861~hmac=0e26e209efae1d387a86e0c5cc6817f9d4886171c8dcbae60d34a8c17b209013",
+    "coverImage": "https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?w=1380&t=st=1680200595~exp=1680201195~hmac=37580a343056d165f085f21140a035173190f3fe3812cc7ced75818574ad77fc"
+  },
+  {
+    "id": 3,
+    "name": "Rachel Singh",
+    "blogTitle": "Debugging 101: Common Errors Every Programmer Should Know How to Fix",
+    "readTime": 6,
+    "publishDate": "Nov 18 (133 days ago)",
+    "authorImage": "https://cdn-icons-png.flaticon.com/512/145/145850.png?w=826&t=st=1680201290~exp=1680201890~hmac=7482a73cd071ca6d4fabb35fedfedec04c98727b21b3d85e65de29f8144990ba",
+    "coverImage": "https://img.freepik.com/free-photo/programming-background-concept_23-2150170134.jpg?w=1380&t=st=1680200628~exp=1680201228~hmac=67dd75202e19521e945ee5f54c1edc718633251049ca2228bf3bed1ab8c7e3d6"
+  },
+  {
+    "id": 4,
+    "name": "Ethan Wong",
+    "blogTitle": "JavaScript Frameworks: A Comprehensive Guide to Choosing the Right One",
+    "readTime": 3,
+    "publishDate": "Jul 7 (267 days ago)",
+    "authorImage": "https://cdn-icons-png.flaticon.com/512/145/145849.png?w=826&t=st=1680201304~exp=1680201904~hmac=a318c6d811487df90e862a53f6d6dc10e37e0b47da2ccb747ff8da4a681a9c9a",
+    "coverImage": "https://img.freepik.com/free-vector/programmer-work-with-working-day-symbols-flat-illustration_1284-60322.jpg?w=1380&t=st=1680200681~exp=1680201281~hmac=cf9302f29022985c9b83eacc86fb48df57cde0ff1d542a4925fdfdba7d655e47"
+  }
+]
