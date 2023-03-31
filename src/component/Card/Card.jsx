@@ -25,13 +25,13 @@ const Card = () => {
      
        
     if ( bookMark.find((b) => b.id === singleData.id)) {
-      toast.error('Item already added',{ autoClose: 1000 });
+      toast.error('This post already  added.',{ autoClose: 1000 });
   
 
     } else {
         const newBookmark = [...bookMark, singleData];
         setBookMark(newBookmark);
-        toast.success('Bookmark added successfully!', { autoClose: 1000 });
+        toast.success('Post added successfully.', { autoClose: 1000 });
     }
     }
     

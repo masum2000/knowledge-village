@@ -8,7 +8,7 @@ const Header = () => {
           <a className="text-3xl  font-bold cursor-pointer">Knowledge Village</a>
         </div>
         <div className="flex-none">
-        <img  className="w-10 rounded-full cursor-pointer" src="../../../public/Masum.png" />
+        <img  className="w-10 rounded-full cursor-pointer" src="../../../public/user.png" />
         </div>
       </div>
       <hr className="border-2 border- primary " />
