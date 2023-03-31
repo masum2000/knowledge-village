@@ -4,17 +4,14 @@ const Bookmark = (props) => {
   const { bookMark } = props;
   return (
     <div>
-      <div className=" w-96 mt-8 p-4 rounded-md font-bold bg-info">
-        <h1>Spent time on read: </h1>
-      </div>
       <div className=" w-96 mt-3 p-4 rounded-md font-bold bg-base-300">
         <h1>Bookmarked Blogs: {bookMark.length}</h1>
       </div>
 
       <div className=" w-96 mt-3 p-4 rounded-md  bg-base-300">
         <h1>
-          <span className="font-bold">Que-1:</span> What is the different
-          between props and state in react?
+          <span className="font-bold">Que-1:  What is the different
+          between props and state in react ?</span>
         </h1>
         <p>
           <span className="font-bold">Ans:</span> Props and state are both used
@@ -25,8 +22,8 @@ const Bookmark = (props) => {
           changed by the component itself.
         </p>
         <h1>
-          <span className="font-bold">Que-2:</span> How does useState work in
-          react
+          <span className="font-bold">Que-2:  How does useState work in
+          react ?</span>
         </h1>
         <p>
           <span className="font-bold">Ans:</span> useState is a React Hook that
@@ -37,7 +34,7 @@ const Bookmark = (props) => {
         </p>
         <h1>
           <span className="font-bold">
-            Que-3: What is the usefull of useEffect beside dataload?
+            Que-3: What is the usefull of useEffect beside dataload ?
           </span>
         </h1>
         <p>
@@ -51,7 +48,7 @@ const Bookmark = (props) => {
           etc.
         </p>
         <h1>
-          <span className="font-bold">Que-4:</span> How does React work?
+          <span className="font-bold">Que-4: How does React work ?</span> 
         </h1>
         <p>
           <span className="font-bold">Ans:</span> React is a JavaScript library

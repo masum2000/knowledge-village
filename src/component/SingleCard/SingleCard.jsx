@@ -4,9 +4,13 @@ const SingleCard = (props) => {
   
   const { name, blogTitle, readTime, publishDate, coverImage, authorImage } =
     props.singleData;
+    // console.log(typeof readTime)
     
     const handleBookMark = props.handleBookMark;
-    const handleMarkRead = props.handleMarkRead;
+    const markAsRead = props.markAsRead;
+    
+    
+
      
    return (
     <div>
@@ -27,7 +31,7 @@ const SingleCard = (props) => {
         </div>
           <div className=" my-3 flex">
           <div>
-          <p>0{readTime} min read </p>
+          <p>{readTime} min read </p>
           </div>
          <div>
          <span  onClick={ () => handleBookMark(props.singleData)} className="cursor-pointer">
@@ -41,7 +45,7 @@ const SingleCard = (props) => {
       <div className="card-body">
         <h2 className="card-title">{blogTitle}</h2>
         <p>#beginners #programming</p>
-        <div  onClick={ () => markAsRead(readTimeStamp)} className="cursor-pointer text-info">
+        <div  onClick={ () => markAsRead(readTime)} className="cursor-pointer text-info">
         <a>Mark as read</a>
         </div>
       </div>
