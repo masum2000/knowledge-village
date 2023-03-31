@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const Question = () => {
-    return (
-        <div>
-            <div className=" lg:w-96 w-80 mx-auto  mt-3 p-4 rounded-md  bg-base-300">
+  return (
+    <div>
+      <div className=" lg:w-96 w-80 mx-auto  mt-3 p-4 rounded-md  bg-base-300">
         <h1>
-          <span className="font-bold">Que-1:  What is the different
-          between props and state in react ?</span>
+          <span className="font-bold">
+            Que-1: What is the different between props and state in react ?
+          </span>
         </h1>
         <p>
           <span className="font-bold">Ans:</span> Props and state are both used
@@ -17,8 +18,9 @@ const Question = () => {
           changed by the component itself.
         </p>
         <h1>
-          <span className="font-bold">Que-2:  How does useState work in
-          react ?</span>
+          <span className="font-bold">
+            Que-2: How does useState work in react ?
+          </span>
         </h1>
         <p>
           <span className="font-bold">Ans:</span> useState is a React Hook that
@@ -43,7 +45,7 @@ const Question = () => {
           etc.
         </p>
         <h1>
-          <span className="font-bold">Que-4: How does React work ?</span> 
+          <span className="font-bold">Que-4: How does React work ?</span>
         </h1>
         <p>
           <span className="font-bold">Ans:</span> React is a JavaScript library
@@ -55,8 +57,8 @@ const Question = () => {
           based on changes to the virtual DOM.{" "}
         </p>
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Question;
