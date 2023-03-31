@@ -10,6 +10,11 @@ const Card = () => {
            .then(res => res.json())
            .then(data => setData(data))
     }, []);
+  
+    const handleBookMark = (singleData) =>{
+      console.log(singleData)
+    }
+
   return (
     <div className="flex w-10/12  mx-auto justify-between">
        <div className="mt-5 ml-7">
@@ -17,11 +22,12 @@ const Card = () => {
          data.map(singleData => <SingleCard
          key={singleData.id}
          singleData= {singleData}
+         handleBookMark={handleBookMark}
          ></SingleCard>)
        }
        </div>
-       <div>
-           
+       <div className="mt-4">
+           <h1>hello world</h1>
        </div>
     </div>
   );
