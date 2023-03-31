@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import SingleCard from "../SingleCard/SingleCard";
+import Bookmark from "../Bookmark/Bookmark";
 
 const Card = () => {
 
     const [data, setData] = useState([]);
+    const [bookMark, setBookMark] = useState([]);
 
     useEffect (() => {
            fetch ('data.json')
@@ -12,7 +14,9 @@ const Card = () => {
     }, []);
   
     const handleBookMark = (singleData) =>{
-      console.log(singleData)
+      // console.log(singleData)
+      const newBookMark = [...bookMark, singleData];
+      setBookMark (newBookMark);
     }
 
   return (
@@ -26,8 +30,8 @@ const Card = () => {
          ></SingleCard>)
        }
        </div>
-       <div className="mt-4">
-           <h1>hello world</h1>
+       <div>
+          <Bookmark bookMark ={bookMark}></Bookmark>
        </div>
     </div>
   );

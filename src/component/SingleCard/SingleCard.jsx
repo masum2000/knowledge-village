@@ -10,7 +10,7 @@ const SingleCard = (props) => {
    return (
     <div>
 
-      <div className=" mt-4 card w-8/12 bg-base-100 shadow-2xl">
+      <div className=" mt-4 card w-4/5 bg-base-100 shadow-2xl">
       <figure>
         <img src={coverImage} alt="Shoes" />
       </figure>
