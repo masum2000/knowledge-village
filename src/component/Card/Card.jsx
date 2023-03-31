@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
 import SingleCard from "../SingleCard/SingleCard";
 import Bookmark from "../Bookmark/Bookmark";
+import Question from "../Questions/Question";
+import { ToastContainer, toast } from 'react-toastify';
+
+
+
+
+
 
 const Card = () => {
 
@@ -15,9 +22,17 @@ const Card = () => {
     }, []);
   
     const handleBookMark = (singleData) =>{
-      // console.log(singleData)
-      const newBookMark = [...bookMark, singleData];
-      setBookMark (newBookMark);
+     
+       
+    if ( bookMark.find((b) => b.id === singleData.id)) {
+      toast.error('Item already added',{ autoClose: 1000 });
+  
+
+    } else {
+        const newBookmark = [...bookMark, singleData];
+        setBookMark(newBookmark);
+        toast.success('Bookmark added successfully!', { autoClose: 1000 });
+    }
     }
     
     const markAsRead = (read) =>{
@@ -27,8 +42,8 @@ const Card = () => {
     }
 
   return (
-    <div className="flex w-10/12  mx-auto justify-between">
-       <div className="my-5 ">
+    <div className="lg:flex">
+       <div className="my-5">
        {
          data.map(singleData => <SingleCard
          key={singleData.id}
@@ -39,13 +54,16 @@ const Card = () => {
        }
        </div>
        <div>
-          <h1 className=" w-96 mt-8 p-4 rounded-md font-bold text-success bg-base-300">Spent time on read: {readMark} min</h1>
+          <h1 className=" lg:w-96 w-80 mx-auto  mt-8 p-4 rounded-md font-bold text-success bg-base-300">Spent time on read: {readMark} min</h1>
           <Bookmark bookMark ={bookMark}></Bookmark>
           {
-            bookMark.map(singleData => <li>
-              key ={singleData.id}
-              {singleData.blogTitle}</li> )
-          }
+            bookMark.map(singleData => 
+              <div key={singleData.id} className=" lg:w-96 w-80 mx-auto  mt-3 p-4 rounded-md font-bold bg-base-300">
+        <h1> {singleData.blogTitle}</h1>
+      </div>
+       )
+      }
+      <Question></Question>
        </div>
     </div>
   );
