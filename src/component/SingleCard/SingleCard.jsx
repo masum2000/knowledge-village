@@ -6,6 +6,7 @@ const SingleCard = (props) => {
     props.singleData;
     
     const handleBookMark = props.handleBookMark;
+    const handleMarkRead = props.handleMarkRead;
      
    return (
     <div>
@@ -30,20 +31,9 @@ const SingleCard = (props) => {
           </div>
          <div>
          <span  onClick={ () => handleBookMark(props.singleData)} className="cursor-pointer">
-         <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z"
-            />
-          </svg>
+           <svg xmlns="http://www.w3.org/2000/svg" fill="none"  viewBox="0 0 24 24"  strokeWidth={1.5} stroke="currentColor"  className="w-6 h-6" >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+           </svg>
          </span>
           </div>
           </div>
@@ -51,7 +41,9 @@ const SingleCard = (props) => {
       <div className="card-body">
         <h2 className="card-title">{blogTitle}</h2>
         <p>#beginners #programming</p>
+        <div  onClick={ () => markAsRead(readTimeStamp)} className="cursor-pointer text-info">
         <a>Mark as read</a>
+        </div>
       </div>
       </div>
 

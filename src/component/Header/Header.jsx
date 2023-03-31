@@ -11,6 +11,7 @@ const Header = () => {
         <img  className="w-10 rounded-full" src="../../../public/Masum.png" />
         </div>
       </div>
+      <hr className="border-2 border- primary " />
     </div>
   );
 };

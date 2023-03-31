@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import SingleCard from "../SingleCard/SingleCard";
 import Bookmark from "../Bookmark/Bookmark";
+import PreviousMap from "postcss/lib/previous-map";
 
 const Card = () => {
 
     const [data, setData] = useState([]);
     const [bookMark, setBookMark] = useState([]);
+    const [readMark, setReadMark] = useState([]);
 
     useEffect (() => {
            fetch ('data.json')
@@ -18,10 +20,14 @@ const Card = () => {
       const newBookMark = [...bookMark, singleData];
       setBookMark (newBookMark);
     }
+    
+    const handleMarkRead = (newReadTime) =>{
+      setReadMark = (previousTotalRedTime => previousTotalRedTime + newReadTime);
+    }
 
   return (
     <div className="flex w-10/12  mx-auto justify-between">
-       <div className="mt-5 ml-7">
+       <div className="my-5 ">
        {
          data.map(singleData => <SingleCard
          key={singleData.id}
