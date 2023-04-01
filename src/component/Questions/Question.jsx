@@ -2,8 +2,8 @@ import React from "react";
 
 const Question = () => {
   return (
-    <div>
-      <div className=" lg:w-96 w-80 mx-auto  mt-3 p-4 rounded-md  bg-base-300">
+    <div className=" lg:w-96 w-80 mx-auto  mt-3 p-4 rounded-md  bg-base-300">
+      <div >
         <h1>
           <span className="font-bold">
             Que-1: What is the different between props and state in react ?

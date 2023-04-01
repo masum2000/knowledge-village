@@ -18,6 +18,8 @@ const Card = () => {
   const handleBookMark = (singleData) => {
     if (bookMark.find((b) => b.id === singleData.id)) {
       toast.error("This post already  added.", { autoClose: 1000 });
+      const newBookmark = [...bookMark, singleData];
+      setBookMark(newBookmark);
     } else {
       const newBookmark = [...bookMark, singleData];
       setBookMark(newBookmark);
@@ -29,7 +31,7 @@ const Card = () => {
 
     setReadMark((previousTotalRedTime) => previousTotalRedTime + read);
   };
-
+// 
   return (
     <div className="lg:flex">
       <div className="my-5">
@@ -45,7 +47,7 @@ const Card = () => {
 {/* Show the spent time ,Bookmarked and question answer  */}
       <div>
         <h1 className=" lg:w-96 w-80 mx-auto  mt-8 p-4 rounded-md font-bold text-success bg-base-300">
-          Spent time on read: {readMark} min
+          Spent Time on Read: {readMark} min
         </h1>
         <Bookmark bookMark={bookMark}></Bookmark>
         {bookMark.map((singleData) => (
