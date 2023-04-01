@@ -33,8 +33,8 @@ const Card = () => {
   };
 // 
   return (
-    <div className="lg:flex">
-      <div className="my-5">
+    <div className="lg:flex w-9/12 mx-auto justify-center gap-12">
+      <div className="my-5 ">
         {data.map((singleData) => (
           <SingleCard
             key={singleData.id}
@@ -45,15 +45,15 @@ const Card = () => {
         ))}
       </div>
 {/* Show the spent time ,Bookmarked and question answer  */}
-      <div>
-        <h1 className=" lg:w-96 w-80 mx-auto  mt-8 p-4 rounded-md font-bold text-success bg-base-300">
+      <div >
+        <h1 className=" lg:w-96  mx-auto  mt-9 p-4 rounded-md font-bold text-success bg-base-300">
           Spent Time on Read: {readMark} min
         </h1>
         <Bookmark bookMark={bookMark}></Bookmark>
         {bookMark.map((singleData) => (
           <div
             key={singleData.id}
-            className=" lg:w-96 w-80 mx-auto  mt-3 p-4 rounded-md font-bold bg-base-300"
+            className=" lg:w-96  mx-auto  mt-3 p-4 rounded-md font-bold bg-base-300"
           >
             <h1> {singleData.blogTitle}</h1>
           </div>

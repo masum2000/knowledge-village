@@ -3,10 +3,10 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <div className="navbar w-10/12 mx-auto  p-6">
+      <div className="navbar w-9/12 mx-auto  p-6">
         <div className="flex-1">
-          <a className="text-3xl  font-bold cursor-pointer">
-            Knowledge Village
+          <a className="md:text-3xl text-xl  font-bold   cursor-pointer">
+            Knowledge <span className="text-success">Village</span>
           </a>
         </div>
         <div className="flex-none">
@@ -16,7 +16,7 @@ const Header = () => {
           />
         </div>
       </div>
-      <hr className="border-2 border- primary " />
+      <hr className="border-2 w-9/12 mx-auto border- primary " />
     </div>
   );
 };

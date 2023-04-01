@@ -6,7 +6,7 @@
     "readTime": 5,
     "publishDate": "Mar 14 (4 Days ago)",
     "authorImage": "https://cdn-icons-png.flaticon.com/512/164/164600.png?w=826&t=st=1680201224~exp=1680201824~hmac=cb470254d108900be3a23399bf5ff5852d76b6790ed3ef3e814511c105dd4a94",
-    "coverImage": "https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg?w=1380&t=st=1680200234~exp=1680200834~hmac=33592190637448f630ffc855deaaea54fea9a26f7c980218c01892e1f5701736"
+    "coverImage": "https://img.freepik.com/free-photo/dangerous-hooded-hacker-her-partner-hacking-government-planting-malware_482257-20613.jpg?t=st=1680353624~exp=1680354224~hmac=5797e1b932d336b5abeabe66a54f38d7fb097d94b9a29b1100ebad387d98cd7a"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "readTime": 4,
     "publishDate": "Feb 25 (34 days ago)",
     "authorImage": "https://cdn-icons-png.flaticon.com/512/196/196756.png?w=826&t=st=1680201261~exp=1680201861~hmac=0e26e209efae1d387a86e0c5cc6817f9d4886171c8dcbae60d34a8c17b209013",
-    "coverImage": "https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?w=1380&t=st=1680200595~exp=1680201195~hmac=37580a343056d165f085f21140a035173190f3fe3812cc7ced75818574ad77fc"
+    "coverImage": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=1060&t=st=1680357820~exp=1680358420~hmac=c9771dc7b49863d867efdb95739a4db435d7afedfb111ec5cb891089ef2bd686"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "readTime": 6,
     "publishDate": "Nov 18 (133 days ago)",
     "authorImage": "https://cdn-icons-png.flaticon.com/512/145/145850.png?w=826&t=st=1680201290~exp=1680201890~hmac=7482a73cd071ca6d4fabb35fedfedec04c98727b21b3d85e65de29f8144990ba",
-    "coverImage": "https://img.freepik.com/free-photo/programming-background-concept_23-2150170134.jpg?w=1380&t=st=1680200628~exp=1680201228~hmac=67dd75202e19521e945ee5f54c1edc718633251049ca2228bf3bed1ab8c7e3d6"
+    "coverImage": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010142.jpg?w=1060&t=st=1680357899~exp=1680358499~hmac=82109491b51387285623cfd80f0afe1d9485036f3164bfb490abff9da207ed4a"
   },
   {
     "id": 4,
@@ -33,6 +33,15 @@
     "readTime": 3,
     "publishDate": "Jul 7 (267 days ago)",
     "authorImage": "https://cdn-icons-png.flaticon.com/512/145/145849.png?w=826&t=st=1680201304~exp=1680201904~hmac=a318c6d811487df90e862a53f6d6dc10e37e0b47da2ccb747ff8da4a681a9c9a",
-    "coverImage": "https://img.freepik.com/free-vector/programmer-work-with-working-day-symbols-flat-illustration_1284-60322.jpg?w=1380&t=st=1680200681~exp=1680201281~hmac=cf9302f29022985c9b83eacc86fb48df57cde0ff1d542a4925fdfdba7d655e47"
+    "coverImage": "https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?w=1060&t=st=1680357941~exp=1680358541~hmac=7419b22c7297cdfd127d9886986fed6cc228097eb11f67d1bae140dced0684e0"
+  },
+  {
+    "id": 5,
+    "name": "Arinom Smile",
+    "blogTitle": "Programming background with person working with codes on computer.",
+    "readTime": 10,
+    "publishDate": "Aug 16 (67 days ago)",
+    "authorImage": "https://cdn-icons-png.flaticon.com/512/164/164600.png?w=826&t=st=1680201224~exp=1680201824~hmac=cb470254d108900be3a23399bf5ff5852d76b6790ed3ef3e814511c105dd4a94",
+    "coverImage": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010136.jpg?w=1060&t=st=1680357990~exp=1680358590~hmac=17cea9c45a8644390a139ef6e440cde6ed4780d7d824d2aaabb3fbbb15c819ef"
   }
 ]

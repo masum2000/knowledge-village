@@ -10,9 +10,9 @@ const SingleCard = (props) => {
   return (
     <div>
 {/* call the all data from data.json file */}
-      <div className="mt-4 mx-auto card w-4/5 bg-base-100 shadow-2xl">
+      <div className="mt-4 mx-auto card bg-base-100 shadow-2xl">
         <figure>
-          <img src={coverImage} alt="Shoes" />
+          <img className="w-full" src={coverImage} alt="Shoes" />
         </figure>
         <div className="flex justify-between">
           <div className="m-3 flex">
@@ -24,7 +24,7 @@ const SingleCard = (props) => {
               <p>{publishDate}</p>
             </div>
           </div>
-          <div className=" my-3 flex">
+          <div className=" m-3 flex">
             <div>
               <p>{readTime} min read </p>
             </div>
@@ -39,7 +39,7 @@ const SingleCard = (props) => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-6 h-6 "
                 >
                   <path
                     strokeLinecap="round"
@@ -56,9 +56,9 @@ const SingleCard = (props) => {
           <p>#beginners #programming</p>
           <div
             onClick={() => markAsRead(readTime)}
-            className="cursor-pointer text-info"
+            className="cursor-pointer text-success font-bold"
           >
-            <a>Mark as read</a>
+            <button>Mark as read</button>
           </div>
         </div>
       </div>
